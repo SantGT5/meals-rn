@@ -16,7 +16,7 @@ import FavoritesScreen from "./screens/FavoritesScreen";
 import FavoritesContextProvider from "./store/context/favorites-context";
 
 // Redux
-import { Provider } from 'react-redux'
+import { Provider } from "react-redux";
 import { store } from "./store/redux/store";
 
 // Icons
@@ -97,8 +97,7 @@ export default function App() {
             />
           </Stack.Navigator>
         </NavigationContainer>
-        </Provider>
-      {/* </FavoritesContextProvider> */}
+      </Provider>
     </>
   );
 }
